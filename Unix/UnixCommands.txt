@@ -1,0 +1,47 @@
+💨 Unix is a computer Operating System which is capable of handling activities from multiple users at the same time.
+ The development of Unix started around 1969 at AT&T Bell Labs by Ken Thompson and Dennis Ritchie.
+ This tutorial gives a very good understanding on Unix.
+
+🔰 Basic Commands on Unix 
+
+💨 pwd :- pwd stands for print working directory they show which directory your currently in
+💨 ls :- Commands to list all the item in the current folder also 
+    ls -a :- -a means show all hident file also (ls -r) and (ls -l) Commands
+💨 cd :- Command to change directory cd folderName/
+            cd ./ :- (.) dot means current directory
+            cd ../
+            cd ../folderName
+💨 mkdir :- making a new directory (Folder) ex. mkdir Test (Test folderName)
+💨 touch :- making a file ex. touch fileName.txt , touch Test/fileName.txt
+💨 cp :- Copy file and also its content ex. cp svm.txt newSVM.txt 
+💨 mv :- move file folder ex. mv name.txt Test2Folder , also use for change file name ex. file1.txt file2.txt
+💨 rm:- remove file permnatly ex. rm svm.txt 
+💨 rm -R :- remove folder permnatly ex. rm -R Test
+💨 du :- Dispaly the use statistics ex. du -h
+💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
+💨 tail:- Dispaly first lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
+💨 dif:- Find diffrent between two files ex. xyz.txt abc.txt
+💨 find:- Search for file in a directory of hirachy ex. find . , find ../ , find Test
+💨 wc :- It can show number of lines in file then number of words in file & bytes of file
+💨 cd ~ :- For going to home directory
+💨 q:- quit in some info or what
+💨 {commandName} man :- used for knowing information of a perticular Command
+
+🔰 About vi Editor :- vi used for file Editor in Command line like notepad
+
+💨 vi fileName.ext
+💨 Type i for Insert text in the file 
+💨 Save file in vi Editor 1)Esc 2):wq (Wright and Quit) 3) Enter
+
+                    
+
+
+
+
+
+
+
+
+
+
+
