@@ -12,17 +12,27 @@
             cd ../
             cd ../folderName
 💨 mkdir :- making a new directory (Folder) ex. mkdir Test (Test folderName)
-💨 touch :- making a file ex. touch fileName.txt , touch Test/fileName.txt
+💨 touch :- making a file ex. touch fileName.txt , touch Test/fileName.txt , touch a b c (many files)
 💨 cp :- Copy file and also its content ex. cp svm.txt newSVM.txt 
 💨 mv :- move file folder ex. mv name.txt Test2Folder , also use for change file name ex. file1.txt file2.txt
 💨 rm:- remove file permnatly ex. rm svm.txt 
-💨 rm -R :- remove folder permnatly ex. rm -R Test
+💨 rm -R :- remove folder permnatly ex. rm -R Test also use rmdir Test
+💨 cat :- Command to see and print what lines in a file ex. cat fileName 
 💨 du :- Dispaly the use statistics ex. du -h
 💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
 💨 tail:- Dispaly first lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
 💨 dif:- Find diffrent between two files ex. xyz.txt abc.txt
 💨 find:- Search for file in a directory of hirachy ex. find . , find ../ , find Test
 💨 wc :- It can show number of lines in file then number of words in file & bytes of file
+💨 echo :- It is build in Command in the home bin directory it is used to display value and veriables in the shell
+            ex. echo sid  = its print sid
+            ex. echo "siddharth" > file.txt
+💨 whoami :- cheak for which person is login 
+💨 chown :- for change the owner but sudo is complsary first
+💨 stat :- show the stat of files ex. stat fileName
+💨 sudo :- sudo stands for "Super user do" you can do this to excute the Command 
+            for the administrative purpose work (as an administer) this will ask you to password
+            to excute the Command associte with it.
 💨 cd ~ :- For going to home directory
 💨 q:- quit in some info or what
 💨 {commandName} man :- used for knowing information of a perticular Command
@@ -32,6 +42,26 @@
 💨 vi fileName.ext
 💨 Type i for Insert text in the file 
 💨 Save file in vi Editor 1)Esc 2):wq (Wright and Quit) 3) Enter
+
+🔰 About file Permissions :- Refer this link alos https://www.javatpoint.com/linux-file-permissions
+
+💨 Permissions like r w x  read wright excute folws like u g o user group other
+    root = sudo group
+    user = name (sid)
+    other = others
+
+💨 How to give a Permissions ex.chmod u = rwx g = rw o = r fileName.txt
+    give permissions to all ex. chmod a+x fileName.txt (+-)
+    also used in number form 4 = read , 2 = wright , 1 = excute
+    rwx = 7 (4+2+1) , rx = 5 , rw = 6 , wx = 3
+
+🔰 About Pipe and Filter :-
+
+💨 wc :- It can show number of lines in file then number of words in file & bytes of file ex. wc fileName.txt
+💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
+💨 tail:- Dispaly first lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
+
+
 
                     
 

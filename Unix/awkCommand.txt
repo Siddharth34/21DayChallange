@@ -1,0 +1,53 @@
+🔰 Refer this link also :- https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+                            https://www.youtube.com/watch?v=kIEKVT1OvHU
+                            
+🔰 data.txt file is available alos in this folder Unix
+
+💨 Use of awk command is when you have column specific data in your file you can use 
+awk command to manipulate the data
+
+💨 Syntax: awk options 'selection _criteria {action }' input-file > output-file
+-f program-file : Reads the AWK program source from the file 
+                  program-file, instead of from the 
+                  first command line argument.
+-F fs            : Use fs for the input field separator
+
+💨 Show data of file by using awk :- ex. awk '{print}' data.txt
+💨 Print the lines which match the given pattern :- awk '/manager/ {print}' data.txt
+💨 print specific columns :- awk '{print $1,$4}' data.txt 
+    $1 = column 1 , $0 is the entire line etc. 
+💨 For Delimnater info Refer this link :- https://www.youtube.com/watch?v=kIEKVT1OvHU
+
+🔰 Built-In Variables In Awk
+
+💨 NR :- use for current count ex. $ awk '{print NR,$0}' data.txt
+💨 NF: NF command keeps a count of the number of fields within the current input record. 
+💨 FS: FS command contains the field separator character which is used to divide fields on the input line. The default is “white space”, meaning space and tab characters. FS can be reassigned to another character (typically in BEGIN) to change the field separator. 
+💨 RS: RS command stores the current record separator character. Since, by default, an input line is the input record, the default record separator character is a newline. 
+💨 OFS: OFS command stores the output field separator, which separates the fields when Awk prints them. The default is a blank space. Whenever print has several parameters separated with commas, it will print the value of OFS in between each parameter. 
+💨 ORS: ORS command stores the output record separator, which separates the output lines when Awk prints them. The default is a newline character. print automatically outputs the contents of ORS at the end of whatever it is given to print. 
+
+🔰 Examples :- 
+
+Q. Print form 3rd line to 10th line 
+💨 awk -F " " 'NR==1 , NR==3 {print}' data.txt
+
+Q. Want to print only this record thoes records who are having 8 columns
+💨 awk 'NF==2{print}' data.txt > newData.txt (change in file name and transfer the line on thoes)
+    also extra awk 'NF>2{print}' data.txt 
+
+Q. Want to see only some specific data 
+💨 awk '/manager/ {print}' data.txt
+
+Q. Want to see record who are having salary grater than 45000
+💨 awk '$4 > 45000{print}' data.txt
+
+Q. Want to see record who are having salary grater than 45000
+💨 awk '$4 > 45000{print}' data.txt
+
+
+
+
+
+
+ 
