@@ -1,0 +1,43 @@
+🔰 Refer this link also :- https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+                            https://www.youtube.com/watch?v=7e9xBu9BYH0&list=WL&index=2
+
+
+💨 grep command used for to search particular pattern and to search for a string in a 
+    particular file
+
+💨Syntax :- grep [options] pattern [files]
+
+💨 Regular expresion characters ^ and $
+    it will be search the position of the character
+    1) ^ = it is search for the begining of the line
+    2) $ = it is search for the end of the line
+    3) .* = it is search for the any character
+   
+Q. search for a given string in a file
+💨 grep "amit" data.txt
+
+Q. i dont want to serch my pattern as a substring , i want to search my pattern 
+    as a complet word
+💨 grep -w "amit" data.txt
+
+Q. Remove case senstivity 
+💨 grep -i "amit" data.txt
+
+Q. I want to serch specific pattern and i want redirect my output into sepret file
+💨 grep "amit" data.txt > newData.txt
+
+Q.  I want to serch specific word and also a line number
+💨 grep -n "amit" data.txt
+
+Q. print all the line in given file whicjh do not match the pattern
+💨 grep -v "amit" data.txt
+
+Q. Remove case senstivity 
+💨 grep -i "amit" data.txt
+
+Q. I want to serch specific word if i dont know the file name
+💨 grep -r "amit" *   (-r = recursive)
+    grep -w "amit" /testCmd (/testCmd = also use folder name)
+ 
+
+
