@@ -1,0 +1,25 @@
+🔰 Refer this link also :- https://www.youtube.com/watch?v=M6nZpfIIFEM&list=WL&index=1
+
+🔰 Note: Refer (Scripts) Folder for shell Scripting programs
+
+💨 Shell Scripting consist of set commands to perform a task
+💨 All the commands excute sequentially
+💨 Use for atomation task
+💨 How to find Shell name = echo $0 
+💨 Make Script by #!/bin/bash at start of file for knowing bash type of linux
+💨 Run the Script = ./fileName (You have permission to excute (x))
+💨 .sh extention for formal use 
+
+💨 For calling veriables use ($) Sign
+💨 For declaring linux  command as veriables use ex. UserName = $(whoami)
+💨 taking input from users = read <veriable name to store the value>
+💨 Run Script in home = scripts/fileName.sh
+💨 type of Operators 
+     -eq = (equal) 
+     -ne = (not equal) 
+     -gt = (Gretar Than)
+     -le = (less then equal to)
+     -gq = (greter then equal to)
+     -lt = Checks if the value of left operand is less than the value of right operand; if yes, then the condition becomes true.
+
+🔰 Refer this link for Operators : https://www.tutorialspoint.com/unix/unix-basic-operators.htm
