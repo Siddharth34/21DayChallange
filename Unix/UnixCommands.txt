@@ -51,9 +51,17 @@
     other = others
 
 💨 How to give a Permissions ex.chmod u = rwx g = rw o = r fileName.txt
-    give permissions to all ex. chmod a+x fileName.txt (+-)
+    give permissions to all ex. chmod o+x (a+o , a= all)fileName.txt (+-)
     also used in number form 4 = read , 2 = wright , 1 = excute
     rwx = 7 (4+2+1) , rx = 5 , rw = 6 , wx = 3
+
+🔰 Meta Charachters :-
+
+💨 Meta Charachters is special meaning in unix
+💨 * and ? are Meta Charachters 
+💨 We use of * to match 0 or more Charachters Ex. ls d* = they show all file start with d Charachter
+💨 We use of ? matches with single Charachter  
+    Ex. if file name is joker.txt then command is ls jo?er* (? = k Charachter which i dont know) 
 
 🔰 About Pipe and Filter :-
 
@@ -61,13 +69,35 @@
 💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
 💨 tail:- Dispaly first lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
 
+🔰 Environment Variables in Unix
 
+ 💨 Ex. var1='Naruto'
+            echo $var1
 
-                    
+            Ex2 . echo $VariableName also printenv VariableName
 
+        Refer this link for this :- https://www.youtube.com/watch?v=hpybXv8-V7k
+                                    https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
 
+ 🔰 Processes in Unix :- 
+ 
+    Refer this link for this :- https://www.geeksforgeeks.org/processes-in-linuxunix/
 
+ 🔰 Job Scheduling in Unix :- 
+        Refer this link for this :- https://www.youtube.com/watch?v=5IdgchTjQwY    
 
+💨 The software utility cron also known as cron job is a time-based job
+    scheduler in Unix-like computer operating systems.
+💨 Users who set up and maintain software environments use cron to schedule jobs to run periodically at fixed times, day,
+    dates, or intervals.
+💨 Used to schedule commands to be executed periodically.
+💨 Crontab uses a daemon, crond , which keeps running in backaround and checks once a minute to see if,any of the
+    scheduled jobs need to be executed.
+💨 crontab -I (to show all the current jobs)
+💨 crontab -e (to edit or add new jobs)
+💨 cron job format = ***** ./fileName.sh
+💨 ***** means =  Refer this link :- https://medium.com/@gianpaul.r/cron-job-scheduler-196aead2c3d4
+💨 cron expression generator :- https://crontab.cronhub.io/
 
 
 
