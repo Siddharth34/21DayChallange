@@ -42,7 +42,7 @@
 💨 vi fileName.ext
 💨 Type i for Insert text in the file 
 💨 Save file in vi Editor 1)Esc 2):wq (Wright and Quit) 3) Enter
-
+💨 vi command should one use to quit vi without saving any changes made = :q!
 🔰 About file Permissions :- Refer this link alos https://www.javatpoint.com/linux-file-permissions
 
 💨 Permissions like r w x  read wright excute folws like u g o user group other
@@ -67,7 +67,7 @@
 
 💨 wc :- It can show number of lines in file then number of words in file & bytes of file ex. wc fileName.txt
 💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
-💨 tail:- Dispaly first lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
+💨 tail:- Dispaly last lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
 
 🔰 Environment Variables in Unix
 

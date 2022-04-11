@@ -1,0 +1,12 @@
+
+🔰 Refer this link for this also :- https://www.tutorialspoint.com/unix/unix-pipes-filters.htm
+                                    
+🔰 About Pipe and Filter :-
+
+💨 wc :- It can show number of "lines" in file then number of "words" in file & "bytes" of file ex. wc fileName.txt
+💨 head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
+💨 tail:- Dispaly last lines in file ex. tail svm.txt , ex. tail -n 2 svm.txt
+
+Q. Write the unix command to count the number of words in the first 3 lines of a file.
+💨 head -n 3 | wc -w
+explanation - (| = pipe) , (wc word count {-w})

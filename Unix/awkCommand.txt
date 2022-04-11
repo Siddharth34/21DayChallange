@@ -6,7 +6,7 @@
 💨 Use of awk command is when you have column specific data in your file you can use 
 awk command to manipulate the data
 
-💨 Syntax: awk options 'selection _criteria {action }' input-file > output-file
+💨 Syntax: awk options 'selection _criteria {action}' input-file > output-file
 -f program-file : Reads the AWK program source from the file 
                   program-file, instead of from the 
                   first command line argument.
@@ -21,7 +21,7 @@ awk command to manipulate the data
 🔰 Built-In Variables In Awk
 
 💨 NR :- use for current count ex. $ awk '{print NR,$0}' data.txt
-💨 NF: NF command keeps a count of the number of fields within the current input record. 
+💨 NF: NF command keeps a count of the number of fields with in the current input record. 
 💨 FS: FS command contains the field separator character which is used to divide fields on the input line. The default is “white space”, meaning space and tab characters. FS can be reassigned to another character (typically in BEGIN) to change the field separator. 
 💨 RS: RS command stores the current record separator character. Since, by default, an input line is the input record, the default record separator character is a newline. 
 💨 OFS: OFS command stores the output field separator, which separates the fields when Awk prints them. The default is a blank space. Whenever print has several parameters separated with commas, it will print the value of OFS in between each parameter. 

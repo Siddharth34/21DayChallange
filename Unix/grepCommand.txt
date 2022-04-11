@@ -29,11 +29,8 @@ Q. I want to serch specific pattern and i want redirect my output into sepret fi
 Q.  I want to serch specific word and also a line number
 💨 grep -n "amit" data.txt
 
-Q. print all the line in given file whicjh do not match the pattern
+Q. print all the line in given file which do not match the pattern
 💨 grep -v "amit" data.txt
-
-Q. Remove case senstivity 
-💨 grep -i "amit" data.txt
 
 Q. I want to serch specific word if i dont know the file name
 💨 grep -r "amit" *   (-r = recursive)
