@@ -1,0 +1,20 @@
+Q4. Student details are stored in a file in the following order with space as
+    the delimiter
+    RollNo Name Score
+
+    Write a unix command to find the name of the Student who has the highest Score.
+    The file will be given as a command line argument when the script
+    containing your command will run.
+
+💨 awk 'BEGIN{max=0;}
+{
+    if($3!="Score" && $3>max)
+{
+    max=$3;name=$2;
+}
+
+}
+END{print (name)}'
+
+
+🔰 Other Que Cheak :- https://www.youtube.com/watch?v=UipaWr9nZ4Y

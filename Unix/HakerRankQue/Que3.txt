@@ -1,0 +1,16 @@
+Q.3 Write a shell script to find the sum of all even numbers from a list of given
+    numbers. The script should first of all take the count of numbers to be added
+    as user input followed by the numbers one by one.
+💨 
+
+read n
+
+awk 'BEGIN{sum=0}
+{if($1%2==0){sum=sum+$1;}}
+END{print("Total=",sum)}'
+fileName
+
+
+🔰 Refer this link for this also :- https://www.tecmint.com/learn-use-awk-special-patterns-begin-and-end/
+
+

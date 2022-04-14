@@ -1,0 +1,3 @@
+Unix is an multi-user,multi-tasking system.
+It is a command based operating system. 
+We will learn unix architecture and the unix commands in this module.

@@ -1,0 +1,6 @@
+Unix is a command based operating system.
+We will learn unix in this module.
+This is a test file.
+are using this file to practice some
+We have reached the end of the file.
+cammands.

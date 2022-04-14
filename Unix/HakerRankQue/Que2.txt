@@ -1,0 +1,11 @@
+Q2. Write the unix command to count the number of words in the first 3 lines of a file.
+💨 head -n 3 | wc -w
+
+
+explanation :- 
+
+1) head:- Dispaly first lines in file ex. head svm.txt also dispaly perticular lines ex. head -n 4 svm.txt 
+2) -n = Number of lines (3) 
+3) | = pipe is used for connect two commands together 
+4) wc = word count
+5) -w = Word

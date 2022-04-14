@@ -1,0 +1,15 @@
+Q1. Write the unix command to count the occurrence of the word "Unix" in a given file.
+file = q1Data.txt
+Note : The search for "Unix" should be case-insensitive.
+💨 grep -i -o "Unix" | wc -l q1Data.txt
+
+
+explanation :- 
+
+1) grep command used for to search particular pattern and to search for a string in a 
+    particular file.
+2) -i = Remove case senstivity 
+3) -o = Print only the matched parts of a matching line,with each such part on a separate output line.
+4) | = pipe is used for connect two commands together 
+5) wc = word count
+6) -l = ?
